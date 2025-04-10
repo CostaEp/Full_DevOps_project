@@ -1,0 +1,23 @@
+{
+  "name": "devops-lifecycle-full-cicd",
+  "version": "1.0.0",
+  "description": "## 🎯 מטרה",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+"scripts": {
+  "start": "node src/server.js",
+  "test": "jest --detectOpenHandles"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.1.0"
+  }
+}
